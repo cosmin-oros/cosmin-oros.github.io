@@ -25,7 +25,7 @@ nav{
     flex-wrap: wrap;
 }
 .nameLogo{
-    width: 200px;
+    width: 150px;
 }
 nav ul{
     flex: 1;
@@ -39,7 +39,7 @@ nav ul li{
 nav ul li a{
     color: #FFF;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
 }
 nav ul li a::after{
@@ -54,4 +54,20 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
+}
+.header_text{
+    margin-top: 20%;
+    font-size: 20px;
+    text-align: left;
+}
+.header_text p{
+    color: #FFDF50;
+    font-weight: bold;
+}
+.header_text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header_text h1 span{
+    color:#FFDF50
 }
