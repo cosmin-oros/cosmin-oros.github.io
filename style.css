@@ -158,7 +158,7 @@ nav ul li a:hover::after{
     overflow: hidden;
 }
 .work1 img{
-    width: 75%;
+    width: 100%;
     height: 210px;
     border-radius: 10px;
     display: block;
@@ -169,7 +169,7 @@ nav ul li a:hover::after{
     overflow: hidden;
 }
 .work2 img{
-    width: 90%;
+    width: 100%;
     height: 210px;
     border-radius: 10px;
     display: block;
@@ -180,7 +180,7 @@ nav ul li a:hover::after{
     overflow: hidden;
 }
 .work3 img{
-    width: 80%;
+    width: 100%;
     height: 210px;
     border-radius: 10px;
     display: block;
@@ -195,4 +195,21 @@ nav ul li a:hover::after{
     height: 210px;
     border-radius: 10px;
     display: block;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.2), #080808);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    pad: 0 40px;
+    text-align: center;
+    
 }
