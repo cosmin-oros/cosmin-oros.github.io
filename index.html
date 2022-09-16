@@ -48,12 +48,12 @@
                 </p>
                 
                 <div class="tab-titles">
-                    <p class="tab-links active-link">Skills</p>
-                    <p class="tab-links">Education</p>
-                    <p class="tab-links">Experience</p>
+                    <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                    <p class="tab-links" onclick="openTab('experience')">Experience</p>
                 </div>
 
-                <div class="tab-contents">
+                <div class="tab-contents active-tab" id="skills">
                     <ul>
                         <li><span>Kotlin</span><br> Android Development, OOP</li>
                         <li><span>C/C++</span><br> Data Structures and Algorithms</li>
@@ -64,6 +64,20 @@
                         <li><span>Bash</span><br> Command line work, security scripts</li>
                         <li><span>Databases</span><br> MySQL, SQLite, MongoDB, Firebase</li>
                         <li><span>Git</span><br> Version Control</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Politehnica University of Timisoara</span><br> BE, Computers and Information Technology<br> 2021 - 2025</li>
+                        <li><span>Colegiul "Mihai Viteazul" Ineu</span><br> Highschool Diploma, Mathematics and Informatics</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        
                     </ul>
                 </div>
             </div>
@@ -80,6 +94,8 @@
             loop: true
         })
     </script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
