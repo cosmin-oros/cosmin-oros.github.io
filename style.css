@@ -142,3 +142,7 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+#portfolio{
+    padding: 50px 0;
+    
+}
