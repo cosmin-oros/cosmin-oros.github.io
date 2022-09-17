@@ -259,3 +259,18 @@ nav ul li a:hover::after{
     height: 100%;
     transition: 0.2s;
 }
+.button{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #FFDF50;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #FFF;
+    transition: background 0.5s;
+}
+.button:hover{
+    background: #FFDF50;
+
+}
