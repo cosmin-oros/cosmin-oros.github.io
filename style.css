@@ -272,5 +272,30 @@ nav ul li a:hover::after{
 }
 .button:hover{
     background: #FFDF50;
-
+}
+.contact{
+    background-image: url(Res/background.jpg);
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.social-icons a img{
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    transition: transform 0.5s;
+}
+.social-icons a img:hover{
+    transform: scale(1.1);
 }
