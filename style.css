@@ -269,9 +269,11 @@ nav ul li a:hover::after{
     text-decoration: none;
     color: #FFF;
     transition: background 0.5s;
+    transition: transform 0.5s;
 }
 .button:hover{
     background: #FFDF50;
+    transform: scale(0.95);
 }
 .contact{
     background-image: url(Res/background.jpg);
@@ -285,6 +287,9 @@ nav ul li a:hover::after{
 .contact-left p{
     margin-top: 10px;
     font-weight: bold;
+}
+.contact-left span{
+    color: #FFDF50;
 }
 .social-icons a img{
     text-decoration: none;
@@ -301,4 +306,25 @@ nav ul li a:hover::after{
 }
 .button.button2{
     display: inline-block;
+    background: #FFDF50;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .button2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
 }
