@@ -40,9 +40,7 @@
                 <br><br>
                 <p class="description">Software engineer | Student at Politehnica University of Timisoara
                     <br><br>
-                    Experienced in C/C++ and Android Development(Kotlin).
-                    <br>
-                    I’m also familiar with a variety of programming languages, including Python, C#, Java, Dart.
+                    I'm from Ineu, Romania and currently living in Timisoara, Romania.
                     <br><br>
                     I consider myself proactive, a hard and smart worker, always willing to learn new things and challenge myself to become better every day.
                 </p>
@@ -138,7 +136,7 @@
                 <a id="cv" href="Res/Oros Cosmin-Cristian - Resume.pdf" download class="button button2">Download CV</a>
             </div>
             <div class="contact-right">
-                <form>
+                <form onsubmit="sendEmail(); reset(); return false;">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
@@ -149,7 +147,7 @@
     </div>
 
     <div class="copyright">
-        <p>Copyright © Oros Cosmin-Cristian</p>
+        <p>Copyright © 2022 Oros Cosmin-Cristian</p>
     </div>
 </div>
 
@@ -164,6 +162,9 @@
     </script>
 
     <script src="script.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="sendEmail.js"></script>
 </body>
 
 </html>
