@@ -336,3 +336,13 @@ form .button2{
     font-weight: 300;
     margin-top: 20px;
 }
+
+@media only screen and (max-with: 600px){
+    .header_text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header_text h1{
+        font-size: 30px;
+    }
+}
