@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Welcome to the repository for my portfolio website built using React and Next.js. This website showcases my work and skills.
+Welcome to the repository for my portfolio website built using React and Three.js. This website showcases my work and skills.
 
 ![Screenshot of the Portfolio Website](screenshot.png) 
 
@@ -13,14 +13,14 @@ Welcome to the repository for my portfolio website built using React and Next.js
 
 ## Overview
 
-This repository contains the source code for my personal portfolio website. It's built using React for the front-end and Next.js. The website is designed to showcase my projects, skills, and provide an avenue for potential employers or collaborators to learn more about me.
+This repository contains the source code for my personal portfolio website. It's built using React for the front-end and Three.js. The website is designed to showcase my projects, skills, and provide an avenue for potential employers or collaborators to learn more about me.
 
 ## Features
 
 ## Technologies Used
 
 - React
-- Next.js
+- Three.js
 - Typescript
 - HTML
 - CSS 
