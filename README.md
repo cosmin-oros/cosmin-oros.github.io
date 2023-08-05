@@ -22,8 +22,7 @@ This repository contains the source code for my personal portfolio website. It's
 - React
 - Three.js
 - Typescript
-- HTML
-- CSS 
+- Tailwind CSS
 
 ## License
 
