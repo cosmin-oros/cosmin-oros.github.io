@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# My Portfolio
 
 Welcome to the repository for my portfolio website built using React and Three.js. This website showcases my work and skills.
 
