@@ -4,7 +4,7 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  typescriptImage,
   html,
   css,
   reactjs,
@@ -25,7 +25,12 @@ import {
   threejs,
 } from '../assets'
 
-export const navLinks = [
+interface NavLink {
+  id: string;
+  title: string;
+}
+
+export const navLinks: NavLink[] = [
   {
     id: "about",
     title: "About",
@@ -40,7 +45,12 @@ export const navLinks = [
   },
 ];
 
-const services = [
+interface Service {
+  title: string;
+  icon: string; // You can replace "string" with a more specific type for the icon
+}
+
+const services: Service[] = [
   {
     title: "Web Developer",
     icon: web,
@@ -59,7 +69,12 @@ const services = [
   },
 ];
 
-const technologies = [
+interface Technology {
+  name: string;
+  icon: string; // You can replace "string" with a more specific type for the icon
+}
+
+const technologies: Technology[] = [
   {
     name: "HTML 5",
     icon: html,
@@ -74,7 +89,7 @@ const technologies = [
   },
   {
     name: "TypeScript",
-    icon: typescript,
+    icon: typescriptImage,
   },
   {
     name: "React JS",
@@ -114,7 +129,16 @@ const technologies = [
   },
 ];
 
-const experiences = [
+interface Experience {
+  title: string;
+  company_name: string;
+  icon: string; // You can replace "string" with a more specific type for the icon
+  iconBg: string;
+  date: string;
+  points: string[];
+}
+
+const experiences: Experience[] = [
   {
     title: "React.js Developer",
     company_name: "Starbucks",
@@ -169,7 +193,15 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+interface Testimonial {
+  testimonial: string;
+  name: string;
+  designation: string;
+  company: string;
+  image: string;
+}
+
+const testimonials: Testimonial[] = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -196,7 +228,20 @@ const testimonials = [
   },
 ];
 
-const projects = [
+interface ProjectTag {
+  name: string;
+  color: string;
+}
+
+interface Project {
+  name: string;
+  description: string;
+  tags: ProjectTag[];
+  image: string; // You can replace "string" with a more specific type for the image URL
+  source_code_link: string;
+}
+
+const projects: Project[] = [
   {
     name: "Car Rent",
     description:

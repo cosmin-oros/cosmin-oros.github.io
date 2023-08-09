@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../style';
-import { navLinks } from '../constants/constants';
+import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 
 const Navbar = () => {
@@ -19,6 +19,13 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' style={{width: '5%', height: '5%'}}/>
           <p className='text-white text-[18px] font-bold cursor-pointer'>Oros Cosmin-Cristian <span className='sm:block hidden'>| Software Engineer</span></p>
         </Link>
+        <ul className='list-none hidden sm:flex flex-row gap-10'>
+          {navLinks.map((link) => (
+            <li>
+              <a href={`${link.id}`}>{link.title}</a>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   )
