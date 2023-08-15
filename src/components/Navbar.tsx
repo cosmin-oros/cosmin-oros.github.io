@@ -52,12 +52,18 @@ const Navbar = () => {
           {navLinks.map((nav) => (
             <li
               key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-secondary"
+              className={`relative ${
+                active === nav.title ? 'text-white' : 'text-secondary'
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              onMouseEnter={() => setActive(nav.title)}
+              onMouseLeave={() => setActive("")}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
+              <div
+                className={`absolute bottom-0 left-0 w-full h-1 bg-purple-500 transform ${
+                  active === nav.title ? 'scale-x-100' : 'scale-x-0'
+                } transition-transform duration-300 ease-in-out`}
+              />
             </li>
           ))}
         </ul>
