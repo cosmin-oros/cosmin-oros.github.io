@@ -9,7 +9,7 @@ const App = () => {
         <div className="bg-hero-pattern bg-color bg-no-repeat bg-center">
           <Navbar/>
           <Hero/>
-          <About/>
+          {/* <About/> */}
           <Experience/>
           <Tech/>
           <Works/>
