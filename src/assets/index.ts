@@ -7,19 +7,29 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescriptImage from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import axios from "./tech/axios.png"
+import c from "./tech/c.png";
+import cpp from "./tech/c++.png";
+import dart from "./tech/dart.png";
+import firebase from "./tech/firebase.png"
+import flutter from "./tech/flutter.webp"
+import gin from "./tech/gin.png"
+import go from "./tech/go.png"
+import java from "./tech/java.png"
+import jira from "./tech/jira.webp"
+import kotlin from "./tech/kotlin.png"
+import mysql from "./tech/mysql.png"
+import postman from "./tech/postman.svg"
+import python from "./tech/python.png"
+import sentry from "./tech/sentry.png"
+import springboot from "./tech/springboot.png"
 
 import continental from "./company/continental.png"
 import gdsc from "./company/gdsc.png"
@@ -39,19 +49,28 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
   git,
-  html,
-  javascript,
-  mongodb,
+  axios,
+  c,
+  cpp,
+  dart,
+  flutter,
+  firebase,
+  gin, 
+  go,
+  java,
+  jira,
+  kotlin,
+  mysql,
+  postman,
+  python,
+  sentry,
+  springboot,
   nodejs,
   reactjs,
   redux,
   tailwind,
   typescriptImage,
-  threejs,
   continental,
   gdsc,
   nokia,

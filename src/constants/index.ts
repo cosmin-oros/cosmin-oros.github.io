@@ -3,18 +3,12 @@ import {
   backend,
   creator,
   web,
-  javascript,
   typescriptImage,
-  html,
-  css,
   reactjs,
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
   continental,
   espresoh,
   gdsc,
@@ -22,7 +16,23 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  springboot,
+  java,
+  kotlin,
+  github,
+  dart,
+  flutter,
+  python,
+  go,
+  gin,
+  c,
+  cpp,
+  sentry,
+  axios,
+  postman,
+  mysql,
+  jira,
+  firebase,
 } from '../assets'
 
 interface NavLink {
@@ -68,20 +78,12 @@ interface Technology {
 
 const technologies: Technology[] = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "TypeScript",
     icon: typescriptImage,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
   },
   {
     name: "React JS",
@@ -92,32 +94,80 @@ const technologies: Technology[] = [
     icon: redux,
   },
   {
+    name: "sentry",
+    icon: sentry,
+  },
+  {
+    name: "axios",
+    icon: axios,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "kotlin",
+    icon: kotlin,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "java",
+    icon: java,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "springboot",
+    icon: springboot,
+  },
+  {
+    name: "dart",
+    icon: dart,
+  },
+  {
+    name: "flutter",
+    icon: flutter,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "go",
+    icon: go,
+  },
+  {
+    name: "gin",
+    icon: gin,
+  },
+  {
+    name: "c",
+    icon: c,
+  },
+  {
+    name: "cpp",
+    icon: cpp,
+  },
+  {
+    name: "firebase",
+    icon: firebase,
+  },
+  {
+    name: "mysql",
+    icon: mysql,
+  },
+  {
+    name: "jira",
+    icon: jira,
+  },
+  {
+    name: "postman",
+    icon: postman,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "github",
+    icon: github,
   },
 ];
 
