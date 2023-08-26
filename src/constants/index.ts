@@ -189,6 +189,7 @@ const experiences: Experience[] = [
     date: "Jul 2023 - Present",
     points: [
       "During my continued tenure at [e-spres-oh], I delved deeper into mastering React Native and TypeScript.",
+      "Started using technologies such as Redux for state management, Axios for making asynchronous API requests, and Sentry for error tracking and monitoring.",
       "Worked in an agile environment developing the Enfineo app.",
     ],
   },
