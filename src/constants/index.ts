@@ -289,67 +289,76 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "Car Rent",
+    name: "Fit-Panda-Mobile",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Mobile app that helps you track your nutrition and stay on track with your goals.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MobX",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: "",
+    source_code_link: "https://github.com/cosmin-oros/fit-panda-mobile",
   },
   {
-    name: "Job IT",
+    name: "Bookify",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Mobile app that gives you book recommendations based on your preferences.",
     tags: [
       {
-        name: "react",
+        name: "kotlin",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "books rest api",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "jetpack compose",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: "",
+    source_code_link: "https://github.com/cosmin-oros/Bookify",
   },
   {
-    name: "Trip Guide",
+    name: "Vacation Spot Finder",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Mobile app that helps you find the perfect travel destination and provides you with safety guidelines.",
     tags: [
       {
-        name: "nextjs",
+        name: "kotlin",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "jetpack compose",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "",
+    source_code_link: "https://github.com/cosmin-oros/Vacation-Spot-Finder-App",
+  },
+  {
+    name: "ProShaped-App",
+    description:
+      "Mobile app that tracks your fitness activity and gives you nutrition advice.",
+    tags: [
+      {
+        name: "kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jetpack compose",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "",
+    source_code_link: "https://github.com/cosmin-oros/ProShaped-app",
   },
 ];
 
