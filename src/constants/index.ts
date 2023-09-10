@@ -93,18 +93,18 @@ const technologies: Technology[] = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  {
-    name: "sentry",
-    icon: sentry,
-  },
-  {
-    name: "axios",
-    icon: axios,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "sentry",
+  //   icon: sentry,
+  // },
+  // {
+  //   name: "axios",
+  //   icon: axios,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "kotlin",
     icon: kotlin,
@@ -117,34 +117,34 @@ const technologies: Technology[] = [
     name: "springboot",
     icon: springboot,
   },
-  {
-    name: "dart",
-    icon: dart,
-  },
-  {
-    name: "flutter",
-    icon: flutter,
-  },
-  {
-    name: "python",
-    icon: python,
-  },
-  {
-    name: "go",
-    icon: go,
-  },
-  {
-    name: "gin",
-    icon: gin,
-  },
-  {
-    name: "c",
-    icon: c,
-  },
-  {
-    name: "cpp",
-    icon: cpp,
-  },
+  // {
+  //   name: "dart",
+  //   icon: dart,
+  // },
+  // {
+  //   name: "flutter",
+  //   icon: flutter,
+  // },
+  // {
+  //   name: "python",
+  //   icon: python,
+  // },
+  // {
+  //   name: "go",
+  //   icon: go,
+  // },
+  // {
+  //   name: "gin",
+  //   icon: gin,
+  // },
+  // {
+  //   name: "c",
+  //   icon: c,
+  // },
+  // {
+  //   name: "cpp",
+  //   icon: cpp,
+  // },
   {
     name: "firebase",
     icon: firebase,
@@ -153,10 +153,10 @@ const technologies: Technology[] = [
     name: "mysql",
     icon: mysql,
   },
-  {
-    name: "jira",
-    icon: jira,
-  },
+  // {
+  //   name: "jira",
+  //   icon: jira,
+  // },
   {
     name: "postman",
     icon: postman,
@@ -236,41 +236,6 @@ const experiences: Experience[] = [
       "At Continental, I engaged in C embedded programming, software testing, and Python automation.",
       "I contributed to embedded systems, conducted software testing, and used Python to automate processes, improving efficiency throughout."
     ],
-  },
-];
-
-interface Testimonial {
-  testimonial: string;
-  name: string;
-  designation: string;
-  company: string;
-  image: string;
-}
-
-const testimonials: Testimonial[] = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -362,4 +327,4 @@ const projects: Project[] = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
